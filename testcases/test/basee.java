@@ -18,7 +18,7 @@ public class basee {
 		 driver.manage().deleteAllCookies();
 		 driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 
-		driver.get("http://192.168.64.2/index.php ");
+		driver.get("http://localhost/dotdash-project/index.php");
 		
 		return driver;
 		
